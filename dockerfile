@@ -14,10 +14,8 @@ RUN npm install --legacy-peer-deps
 WORKDIR /app/web-gui
 RUN npm install --legacy-peer-deps
 
-# Go back to root
+# Go back to root and copy all code
 WORKDIR /app
-
-# Copy the rest of the application code
 COPY . .
 
 # Build the Next.js app
@@ -34,5 +32,8 @@ ENV NODE_OPTIONS="--max-old-space-size=4096"
 EXPOSE 3000
 EXPOSE 3001
 
-# Start all services concurrently
-CMD ["npx", "concurrently", "-n", "web,agent,api", "-c", "cyan,magenta,green", "cd web-gui && npm start", "node agent/index.js", "node api/server.js"]
+# Start all services - fixed paths
+CMD ["npx", "concurrently", "-n", "web,agent,api", "-c", "cyan,magenta,green", \
+     "npm start --prefix web-gui", \
+     "node agent/index.js", \
+     "node api/server.js"]
