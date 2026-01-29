@@ -14,6 +14,8 @@ import { MessageSquareIcon, Send, Bot, User } from "lucide-react";
 import { nanoid } from "nanoid";
 import { useEffect, useState } from "react";
 import APIfunc from "@/lib/api";
+import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
 
 const PREDEFINED_QUESTIONS = [
     "Kan ik met mijn HAVO profiel Natuur & Techniek ICT studeren?",
@@ -186,7 +188,82 @@ const Example = () => {
                                         </div>
                                         <Message from={from}>
                                             <MessageContent>
-                                                {value}
+                                                {from === "assistant" ? (
+                                                    <ReactMarkdown
+                                                        remarkPlugins={[
+                                                            remarkGfm,
+                                                        ]}
+                                                        components={{
+                                                            h3: ({
+                                                                node,
+                                                                ...props
+                                                            }) => (
+                                                                <h3
+                                                                    className="text-lg font-semibold mt-4 mb-2"
+                                                                    {...props}
+                                                                />
+                                                            ),
+                                                            ul: ({
+                                                                node,
+                                                                ...props
+                                                            }) => (
+                                                                <ul
+                                                                    className="list-disc pl-6 space-y-1"
+                                                                    {...props}
+                                                                />
+                                                            ),
+                                                            ol: ({
+                                                                node,
+                                                                ...props
+                                                            }) => (
+                                                                <ol
+                                                                    className="list-decimal pl-6 space-y-1"
+                                                                    {...props}
+                                                                />
+                                                            ),
+                                                            li: ({
+                                                                node,
+                                                                ...props
+                                                            }) => (
+                                                                <li
+                                                                    className="text-sm"
+                                                                    {...props}
+                                                                />
+                                                            ),
+                                                            p: ({
+                                                                node,
+                                                                ...props
+                                                            }) => (
+                                                                <p
+                                                                    className="mb-2"
+                                                                    {...props}
+                                                                />
+                                                            ),
+                                                            strong: ({
+                                                                node,
+                                                                ...props
+                                                            }) => (
+                                                                <strong
+                                                                    className="font-semibold"
+                                                                    {...props}
+                                                                />
+                                                            ),
+                                                            code: ({
+                                                                node,
+                                                                ...props
+                                                            }) => (
+                                                                <code
+                                                                    className="bg-muted px-1.5 py-0.5 rounded text-sm font-mono"
+                                                                    {...props}
+                                                                />
+                                                            ),
+                                                        }}
+                                                    >
+                                                        {value}
+                                                    </ReactMarkdown>
+                                                ) : (
+                                                    value
+                                                )}
                                             </MessageContent>
                                         </Message>
 
