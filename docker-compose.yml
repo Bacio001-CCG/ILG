@@ -1,0 +1,13 @@
+services:
+    v3:
+        build:
+            context: .
+            dockerfile: ./Dockerfile
+        restart: always
+        hostname: YOUR_HOSTNAME_HERE
+        env_file:
+            - ./.env
+        container_name: v3
+        ports:
+            - "3001:3001"
+            - "3000:3000"

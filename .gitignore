@@ -1,0 +1,24 @@
+# Root level ignores
+node_modules/
+.env
+.DS_Store
+faiss_index/
+
+# Web-gui specific (prefixed with web-gui/)
+web-gui/node_modules/
+web-gui/.next/
+web-gui/out/
+web-gui/build/
+web-gui/.DS_Store
+web-gui/*.tsbuildinfo
+web-gui/next-env.d.ts
+web-gui/.vercel
+web-gui/.env*.local
+web-gui/.turbo
+web-gui/dist/
+
+# Agent specific
+agent/faiss_index/
+
+# API logs
+api/*.log

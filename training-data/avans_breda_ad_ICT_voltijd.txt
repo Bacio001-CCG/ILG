@@ -1,0 +1,129 @@
+
+
+## ASSOCIATE DEGREE INFORMATICA
+
+**Location:** ’s-Hertogenbosch
+**Start month:** September
+**Duration:** 2 years, full-time Associate degree
+**Language:** Dutch
+
+---
+
+## ABOUT THE PROGRAM
+
+In just two years, you grow into a competent software developer with the Associate degree Informatica at Avans. This practice-oriented program focuses on building innovative software systems that optimize business processes.
+
+You learn how to transform complex problems into working software solutions. From day one, you work on real-world assignments and develop applications using modern technologies such as databases, cloud solutions, Internet of Things (IoT), and data security. The program is compact, intensive, and strongly focused on learning by doing.
+
+---
+
+## WHY THE ASSOCIATE DEGREE INFORMATICA?
+
+* You become job-ready in just two years.
+* Strong focus on practical software development.
+* No written exams; assessment through projects and professional products.
+* Small-scale and personal learning environment.
+* You work with modern technologies such as IoT, data engineering, and cyber security.
+
+---
+
+## WHAT ARE YOU TRAINED FOR?
+
+The Associate degree Informatica trains you to become a practically skilled IT professional who masters the complete software development process. You learn how to design, build, test, and improve software applications.
+
+You combine technical knowledge with a structured, solution-oriented mindset and are able to quickly adapt to new tools, programming languages, and development methods.
+
+---
+
+## POSSIBLE PROFESSIONS AFTER THIS PROGRAM
+
+* **Front-end Developer:** You build user-friendly interfaces for websites and applications.
+* **Back-end Developer:** You develop the technical core of software systems.
+* **Web Developer:** You create complete web applications from design to implementation.
+* **Database Specialist:** You design and manage data structures.
+* **Software Tester:** You test software for quality, security, and functionality.
+* **ICT Consultant:** You advise organizations on software solutions and implementations.
+
+---
+
+## WHAT IS EXPECTED OF YOU?
+
+You choose this program because you like practical learning and want to see direct results from your work. You are curious about how software solves real problems and enjoy thinking in solutions.
+
+You are motivated, structured, and willing to work both independently and in teams. You prefer hands-on projects over purely theoretical study and value personal guidance.
+
+---
+
+## FURTHER EDUCATION
+
+After completing the Associate degree Informatica, you can continue your studies with a tailored transfer program to a Bachelor’s degree.
+
+Possible follow-up programs include:
+
+**Full-time:**
+
+* Informatica – Software Development (Avans Hogeschool, Breda or Den Bosch) – 2 years
+* ICT – HZ University of Applied Sciences (Middelburg) – 2 years
+
+**Part-time:**
+
+* ICT – Avans Hogeschool (Breda)
+* Electrical Engineering – Avans Hogeschool
+* Mechatronics – Avans Hogeschool
+* Technical Business Administration – Avans Hogeschool
+* Mechanical Engineering – Avans Hogeschool
+
+---
+
+## CURRICULUM (DEN BOSCH)
+
+**Study structure**
+The program consists of two years with blocks of 10 weeks. Each block follows the same structure:
+
+* Learning new theory
+* Practice and guidance
+* Assessment through professional products
+* Project presentation
+
+You work using the Agile Scrum methodology and receive weekly guidance from lecturers. English is also part of the curriculum.
+
+### Year 1
+
+You develop four professional software products, each with a different focus:
+
+* Java applications with databases
+* Android applications
+* IoT and C++ applications
+* Specialization profiles: Front-end Design, Cyber Security, or Data Engineering
+
+### Year 2
+
+You deepen your specialization and work on advanced group projects:
+
+* IoT and data-driven applications
+* SCADA project with Engineering students
+* Elective block
+
+The second half of year 2 consists of your graduation internship.
+
+### Internship
+
+* Duration: half a year, full-time
+* You work on a real software assignment at a company in the Netherlands or abroad
+* You apply all phases of the software development process
+
+---
+
+## ADMISSION REQUIREMENTS ASSOCIATE DEGREE INFORMATICA
+
+**Mbo:**
+
+* Mbo level 4 diploma (direct admission)
+
+**Havo / Vwo:**
+
+* Direct admission with any profile
+
+**21+ Students:**
+
+* Successful completion of a 21+ admission test

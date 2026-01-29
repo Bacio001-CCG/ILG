@@ -1,0 +1,24 @@
+{
+  "name": "v3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "setup": "node agent/vectorStore.js",
+    "start": "node agent/index.js",
+    "api": "node api/index.js",
+    "web": "cd web-gui && npm run dev",
+    "web-prod": "cd web-gui && npm run build && npm run start"
+  },
+  "dependencies": {
+    "@langchain/community": "^0.3.0",
+    "@langchain/openai": "^0.3.0",
+    "dotenv": "^16.4.0",
+    "express": "^5.2.1",
+    "faiss-node": "^0.5.1",
+    "langchain": "^0.3.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
